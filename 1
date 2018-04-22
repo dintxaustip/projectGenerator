@@ -1,0 +1,12 @@
+void ofApp::draw(){
+
+    //  Draw a red cuboid slightly off the center of the canvas so to see the 3d shape.
+
+    ofSetColor(255, 0, 0);
+    ofFill();
+    ofDrawBox(ofGetWidth() * .5, ofGetHeight() * .7, 0, 200, 100, 200);
+
+    //NOTE: to better see the 3D shape you need to create a light spot...
+    //check `ofLight' documentation
+
+}
